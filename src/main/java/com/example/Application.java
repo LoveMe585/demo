@@ -11,7 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) {
+        System.out.printf("*******************项目启动开始************************");
+
         SpringApplication.run(Application.class, args);
+
+        System.out.printf("*******************项目启动结束************************");
+
     }
 
 }
